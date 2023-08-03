@@ -1,0 +1,30 @@
+//testimonials carrocel
+
+.card-testmonials {
+    width: 100%;
+    max-width: 384px;
+    background-color: rgba(241, 240, 245, 0.55);
+    height: 209px;
+    padding: 37px 32px 23px 32px;
+    .user {
+        margin-bottom: 21px;
+        @include flex(row, center, space-between);
+        strong {
+            display: block;
+            color: var(--grey-500, #4E4B59);
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 112%;
+            letter-spacing: -1px;
+            color: $grey-500;
+        }
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        color: $grey-400;
+    }
+}
+
